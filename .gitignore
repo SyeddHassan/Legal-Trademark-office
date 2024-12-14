@@ -1,0 +1,29 @@
+# WEBSITE DEPENDENCIES
+/user-interface/node_modules
+
+# WEBSITE TESTING
+/user-interface/coverage
+
+# WEBSITE NEXT.JS
+/user-interface/.next/
+/user-interface/out/
+
+# WEBSITE PRODUCTION
+/user-interface/build
+
+# WEBSITE MISCELLANEOUS
+/user-interface/.DS_Store
+/user-interface/*.pem
+
+# WEBSITE DEBUGS
+/user-interface/npm-debug.log*
+
+# WEBSITE ENVIRONMENT FILE
+/user-interface/.env.production
+
+# WEBSITE VERCEL
+/user-interface/.vercel
+
+# WEBSITE TYPESCRIPT
+/user-interface/*.tsbuildinfo
+/user-interface/next-env.d.ts
