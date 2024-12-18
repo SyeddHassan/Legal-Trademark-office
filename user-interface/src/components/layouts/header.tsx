@@ -99,8 +99,9 @@ const Header = () => {
                 Office
               </SheetTitle>
               <SheetDescription className="text-[12px] text-start">
-                This action cannot be undone. This will permanently delete your
-                account and remove your data from our servers.
+                Secure your business name, logo, and brand identity with
+                professional trademark registration services. Protect what
+                matters most your brand.
               </SheetDescription>
 
               <Separator className="!mt-6" />
@@ -125,7 +126,7 @@ const Header = () => {
                           {page.subItems?.map((subItem, subIndex) => (
                             <Link href={subItem.path} key={subIndex} passHref>
                               <li className="text-[14px] font-inter leading-[24px] text-heading-color hover:text-primary-theme cursor-pointer">
-                               {subIndex + 1}. {subItem.title}
+                                {subIndex + 1}. {subItem.title}
                               </li>
                             </Link>
                           ))}

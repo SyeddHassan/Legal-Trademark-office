@@ -1,126 +1,132 @@
 import {
-  Smile,
-  Globe,
-  ShieldCheck,
-  Clock,
   Info,
-  Search,
-  CheckCircle,
-  FileText,
-  DollarSign,
+  Shield,
+  Hourglass,
+  FileCheck2,
+  Clock10,
+  Network,
+  CheckSquare,
+  Lock,
+  Timer,
+  Globe2,
+  Key,
+  Brush,
+  Thermometer,
+  BookOpen,
 } from "lucide-react";
 
 export const FaqPageData = [
   {
     id: 1,
-    question: "How long does a trademark last?",
+    question: "What is a trademark?",
     answer:
-      "A trademark typically lasts for 10 years but can be renewed indefinitely as long as it continues to be used in commerce.",
-    icon: <Clock className="h-[16px] w-[16px]" />,
+      "A trademark is a word, phrase, logo, symbol, or design that identifies and distinguishes the source of goods or services from others in the marketplace.",
+    icon: <Info className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 2,
-    question: "Can I trademark a phrase or slogan?",
+    question: "Why should I register my trademark?",
     answer:
-      "Yes, you can trademark a unique phrase or slogan if it is used to identify your goods or services and distinguish them from others.",
-    icon: <CheckCircle className="h-[16px] w-[16px]" />,
+      "Registering a trademark provides legal protection, exclusive rights to use your mark, and the ability to prevent others from using a similar mark in your industry.",
+    icon: <Shield className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 3,
-    question: "What is the difference between a trademark and a service mark?",
+    question: "How long does the trademark registration process take?",
     answer:
-      "A trademark protects goods, while a service mark protects services. Both provide similar legal protections.",
-    icon: <Info className="h-[16px] w-[16px]" />,
+      "The process typically takes 8-12 months, but this can vary depending on the complexity of the application and potential objections.",
+    icon: <Hourglass className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 4,
-    question: "Can I register a trademark internationally?",
+    question:
+      "Can I register a trademark for a business name I am not using yet?",
     answer:
-      "There is no universal trademark. However, you can register in multiple countries through systems like the Madrid Protocol.",
-    icon: <Globe className="h-[16px] w-[16px]" />,
+      "Yes, you can file an 'Intent-to-Use' application if you plan to use the trademark in commerce in the near future.",
+    icon: <FileCheck2 className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 5,
-    question: "What should I do if someone infringes on my trademark?",
+    question: "How long does a trademark last?",
     answer:
-      "Contact an attorney to discuss enforcement options, such as sending a cease-and-desist letter or pursuing legal action.",
-    icon: <ShieldCheck className="h-[16px] w-[16px]" />,
+      "A trademark lasts for 10 years and can be renewed indefinitely as long as it is being used in commerce and renewal fees are paid.",
+    icon: <Clock10 className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 6,
-    question: "Why are trademarks important?",
+    question: "What is the Amazon Brand Registry?",
     answer:
-      "Trademarks protect your brand identity, build trust with customers, and give you legal rights against infringement.",
-    icon: <Smile className="h-[16px] w-[16px]" />,
+      "Amazon Brand Registry is a program that helps protect your brand on Amazon by providing tools to monitor and report intellectual property violations.",
+    icon: <Network className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 7,
-    question: "What can be trademarked?",
+    question:
+      "Do I need a registered trademark to enroll in the Amazon Brand Registry?",
     answer:
-      "You can trademark names, logos, slogans, sounds, and even colors if they are distinctive and represent your brand.",
-    icon: <CheckCircle className="h-[16px] w-[16px]" />,
+      "Yes, you must have a registered trademark in the country where you are enrolling in the registry.",
+    icon: <CheckSquare className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 8,
-    question: "What is the symbol for a registered trademark?",
+    question: "How does the Brand Registry protect my products?",
     answer:
-      "The symbol ® is used to indicate a registered trademark, while ™ can be used for unregistered trademarks.",
-    icon: <Info className="h-[16px] w-[16px]" />,
+      "The program gives you access to tools that allow you to report listings that infringe on your trademark and enhance your brand's presence on Amazon.",
+    icon: <Lock className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 9,
-    question: "What information is needed for the trademark application?",
+    question: "How long does it take to enroll in the Amazon Brand Registry?",
     answer:
-      "You will need details like the trademark name/logo, description of goods/services, and proof of use in commerce.",
-    icon: <FileText className="h-[16px] w-[16px]" />,
+      "Once your trademark is registered, the enrollment process typically takes 1-2 weeks.",
+    icon: <Timer className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 10,
-    question: "Do I need to conduct a trademark search before applying?",
+    question: "What is a patent?",
     answer:
-      "Yes, conducting a trademark search helps ensure your mark does not conflict with existing ones, reducing the risk of rejection.",
-    icon: <Search className="h-[16px] w-[16px]" />,
+      "A patent is a legal right granted for an invention, giving the owner exclusive rights to use, sell, or license the invention for a specific period.",
+    icon: <BookOpen className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 11,
-    question: "Can a trademark expire?",
+    question: "How long does the patent application process take?",
     answer:
-      "Yes, if you fail to renew it after 10 years or stop using it in commerce, it can expire.",
-    icon: <Clock className="h-[16px] w-[16px]" />,
+      "The process can take 1-3 years or more, depending on the type of patent and complexity of the invention.",
+    icon: <Thermometer className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 12,
-    question:
-      "Is the application fee refundable if my trademark is not approved?",
+    question: "What is copyright?",
     answer:
-      "No, application fees are generally non-refundable, even if your trademark application is denied.",
-    icon: <DollarSign className="h-[16px] w-[16px]" />,
+      "Copyright is a form of protection granted to original works of authorship, such as books, music, art, and software.",
+    icon: <Brush className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 13,
-    question: "How long does the trademark application process take?",
+    question: "Do I need to register my copyright?",
     answer:
-      "The process usually takes 6-12 months, depending on the complexity of the application and any potential objections.",
-    icon: <Clock className="h-[16px] w-[16px]" />,
+      "While copyright is automatically granted upon creation, registering your work provides additional legal protection and makes enforcement easier.",
+    icon: <Key className="h-[16px] w-[16px]" />,
   },
 
   {
     id: 14,
-    question: "What happens after I submit the application form?",
+    question: "How do I protect my copyright internationally?",
     answer:
-      "Your application will be reviewed, and if accepted, it will be published for opposition before registration.",
-    icon: <FileText className="h-[16px] w-[16px]" />,
+      "Copyright protection is automatic in countries that are members of international copyright treaties like the Berne Convention.",
+    icon: <Globe2 className="h-[16px] w-[16px]" />,
   },
 ];
