@@ -2,7 +2,7 @@ export const HeaderNavigationsData = [
   { title: "Home", path: "/" },
   { title: "Our Services", path: "/our-services" },
   { title: "About Us", path: "/about-us" },
-  { title: "FAQs", path: "/faqs" },
+  { title: "Our Legal Team", path: "/legal-team" },
 ];
 
 export const SidebarNavigationsData = [
@@ -30,6 +30,7 @@ export const SidebarNavigationsData = [
       },
     ],
   },
+  { title: "Our Legal Team", path: "/legal-team" },
   { title: "Contact Us", path: "/contact-us" },
   { title: "Frequently Asked Questions", path: "/faqs" },
   { title: "Insights", path: "/insights" },
@@ -42,6 +43,7 @@ export const FooterPagesNavigationData = [
     title: "Learn More",
     links: [
       { title: "About Us", href: "/about-us" },
+      { title: "Our Legal Team", href: "/legal-team" },
       { title: "Contact Us", href: "/contact-us" },
       { title: "Insights", href: "/insights" },
       { title: "Frequently Asked Questions", href: "/faqs" },

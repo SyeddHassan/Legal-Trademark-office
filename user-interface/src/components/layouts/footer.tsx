@@ -22,7 +22,10 @@ const Footer = () => {
 
             <div className="flex flex-wrap gap-10 md:justify-between md:flex-1">
               {FooterPagesNavigationData.map((columns, index) => (
-                <div className="flex flex-col gap-5 max-md:w-full max-md:items-center">
+                <div
+                  key={index}
+                  className="flex flex-col gap-5 max-md:w-full max-md:items-center"
+                >
                   <h4 className="text-[18px] font-[700] font-inter text-heading-color whitespace-nowrap">
                     {columns.title}
                   </h4>
