@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-color: #ffffff;
+    --secondary-bg-color: #e9eff3;
+
+    --primary-theme: #027dd6;
+    --primary-hover: #025c9e;
+    --secondary-theme: #ffffff;
+    --secondary-hover: #f2f2f2;
+
+    --heading-color: #000000;
+    --paragraph-color: #505050;
+
+    --border: #e0e0e0;
+    --radius: 0.5rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--paragraph-color);
+  font-family: var(--font-roboto), sans-serif;
+  text-rendering: optimizeLegibility;
+  border: var(--border);
+}
