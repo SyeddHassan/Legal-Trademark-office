@@ -31,7 +31,7 @@ const TermsConditionsHeroSection = () => {
           They outline the rights and responsibilities of both parties, ensuring
           a clear understanding of our services and how they can be used. By
           establishing these guidelines, we aim to protect your interests and
-          maintain a secure, trustworthy environment. Whether you're exploring
+          maintain a secure, trustworthy environment. Whether you&apos;re exploring
           our trademark registration offerings or engaging with our platform,
           our policies ensure a seamless and reliable experience.
         </p>
