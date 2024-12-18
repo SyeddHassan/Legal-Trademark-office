@@ -36,3 +36,58 @@ export const SidebarNavigationsData = [
   { title: "Privacy Policy", path: "/privacy-policy" },
   { title: "Terms of Services", path: "/terms-conditions" },
 ];
+
+export const FooterPagesNavigationData = [
+  {
+    title: "Learn More",
+    links: [
+      { title: "About Us", href: "/about-us" },
+      { title: "Contact Us", href: "/contact-us" },
+      { title: "Insights", href: "/insights" },
+      { title: "Frequently Asked Questions", href: "/faqs" },
+      { title: "Privacy Policy", href: "/privacy-policy" },
+      { title: "Terms of Services", href: "/terms-conditions" },
+    ],
+  },
+  {
+    title: "Our Services",
+    links: [
+      {
+        title: "Trademark Registration",
+        href: "/services/trademark-registration",
+      },
+      { title: "Patent Registration", href: "/services/patent-registration" },
+      {
+        title: "Amazon Brand Registration",
+        href: "/services/amazon-brand-registration",
+      },
+      {
+        title: "Copyright Registration",
+        href: "/services/copyright-registration",
+      },
+      {
+        title: "Trademark License Renewal",
+        href: "/services/trademark-license-renewal",
+      },
+    ],
+  },
+];
+
+export const FooterContactInfoData = {
+  title: "Contact Us",
+  links: [
+    { label: "Support Phone", value: "+1 (310) 424-4909" },
+    { label: "Support Email", value: "support@legaltrademarkoffice.com" },
+  ],
+};
+
+export const FooterSocialsData = {
+  title: "Social",
+  links: [
+    "/icons/facebook.svg",
+    "/icons/instagram.svg",
+    "/icons/twitter.svg",
+    "/icons/youtube.svg",
+    "/icons/wordpress.svg",
+  ],
+};
