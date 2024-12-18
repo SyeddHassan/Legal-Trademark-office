@@ -10,7 +10,7 @@ const FaqsQuestionsAnswersSection = () => {
       <div className="w-full grid md:grid-cols-2 grid-cols-1 gap-x-8 gap-y-12">
         {FaqPageData.map((faq, index) => (
           <div key={index} className="col-span-1 flex flex-col gap-8">
-            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-4 lg:h-[70px] md:h-[120px]">
               <span className="w-fit p-2 border rounded-sm">{faq.icon}</span>
               <div className="flex flex-col gap-2">
                 <h1 className="font-inter font-bold text-heading-color md:text-[16px] text-[14px] md:leading-[20px] leading-[18px]">

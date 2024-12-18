@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import { ShieldCheck } from "lucide-react";
-import FaqsHeroSectionImage from "../../../../public/images/privacy-policy-section-img.png";
+import PrivacyPolicyHeroSectionImage from "../../../../public/images/privacy-policy-section-img.png";
 
 const PrivacyPolicyHeroSection = () => {
   return (
@@ -39,7 +39,7 @@ const PrivacyPolicyHeroSection = () => {
         className={`relative flex items-start lg:w-[700px] h-fit lg:order-2 md:order-1`}
       >
         <Image
-          src={FaqsHeroSectionImage}
+          src={PrivacyPolicyHeroSectionImage}
           alt="Privacy Policy of Legal Trademark Office"
         />
         <div className="absolute -bottom-1 left-0 w-full h-[100px] bg-gradient-to-t from-white to-transparent" />
