@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import { FileText } from "lucide-react";
-import TermsConditionsHeroSectionImage from "../../../../public/images/terms-conditions-section-img.png";
+import TermsConditionsHeroSectionImage from "../../../../public/images/terms-conditions-hero-section-img.png";
 
 const TermsConditionsHeroSection = () => {
   return (

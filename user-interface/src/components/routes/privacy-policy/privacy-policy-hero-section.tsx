@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import { ShieldCheck } from "lucide-react";
-import PrivacyPolicyHeroSectionImage from "../../../../public/images/privacy-policy-section-img.png";
+import PrivacyPolicyHeroSectionImage from "../../../../public/images/privacy-policy-hero-section-img.png";
 
 const PrivacyPolicyHeroSection = () => {
   return (

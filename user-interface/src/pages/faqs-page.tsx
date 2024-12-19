@@ -7,7 +7,7 @@ const FAQsPage = () => {
   return (
     <main>
       <FaqsHeroSection />
-      <FaqsQuestionsAnswersSection />
+      <FaqsQuestionsAnswersSection /> 
     </main>
   );
 };

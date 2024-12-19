@@ -12,7 +12,7 @@ const ContactUsPage = () => {
       <section className="w-full grid lg:grid-cols-2 lg:gap-8">
         {/* RIGHT SIDE HERO IMAGE */}
         <div
-          className="col-span-1 lg:h-full md:h-[500px] h-[300px] w-full bg-cover bg-[50%_50%] bg-no-repeat"
+          className="col-span-1 lg:h-full md:h-[500px] h-[300px] w-full bg-cover bg-[50%_50%] bg-no-repeat lg:rounded-[0_0_20px_0]"
           style={{ backgroundImage: `url(${ContactUsHeroImg.src})` }}
         />
 
