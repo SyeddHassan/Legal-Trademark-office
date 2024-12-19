@@ -3,6 +3,8 @@ import { Inter, Roboto } from "next/font/google";
 
 import { getPageMetadata } from "@/utils/meta-data";
 
+import { Toaster } from "@/components/ui/sonner"
+
 // STYLE SHEETS SOURCE
 import "./globals.css";
 
@@ -40,6 +42,7 @@ export default function RootLayout({
         className={`${inter.variable} ${roboto.variable} antialiased`}
       >
         {children}
+        <Toaster />
       </body>
     </html>
   );
